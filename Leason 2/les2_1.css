@@ -1,0 +1,35 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #e0c088;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.font1 {
+    font-family: Rubik Pixels;
+}
+
+.font2 {
+    font-family: Sedgwick Ave Display;
+}
+
+.font3 {
+    font-family: Dancing Script;
+}
+
+.font4 {
+    font-family: Fjalla One;
+}
+
+.font5 {
+    font-family: Indie Flower;
+}
