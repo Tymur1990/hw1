@@ -3,9 +3,20 @@
     padding: 0;
 }
 
-.title {
-    background-color: #111a5b;
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #837e7e;
+}
+
+.all {
     width: 1440px;
+    background-color: #a40e62;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
     height: 70px;
     display: flex;
     align-items: center;
@@ -15,13 +26,14 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .img2 {
-    width: 1440px;
     height: 484px;
     background-image: url("https://anitousen.com/uploads/posts/2023-04/1682098393_anitousen-oshi-no-ko-2023.jpg");
     background-size: cover;
+    transition: 1s;
 }
 
 .img3 {
@@ -35,6 +47,7 @@
     width: 200px;
     height: 315px;
     padding-left: 180px;
+    transition: 1s;
 }
 
 .img5 {
@@ -42,6 +55,7 @@
     height: 315px;
     padding-left: 180px;
     padding-right: 180px;
+    transition: 1s;
 }
 
 .img6 {
@@ -53,40 +67,30 @@
 
 .mid1 {
     display: flex;
-    width: 1440px;
-    height: 700px;
     align-items: center;
-    background-color: #111a5b;
 }
 
 .mid2 {
     display: flex;
-    width: 1440px;
     height: 350px;
     align-items: center;
-    background-color: #111a5b;
 }
 
 .mid3 {
     display: flex;
-    width: 1440px;
     height: 500px;
     align-items: center;
-    background-color: #111a5b;
 }
 
 .down {
     display: flex;
-    width: 1440px;
     height: 247px;
     align-items: center;
     justify-content: center;
-    background-color: #111a5b;
 }
 
 .fut {
     display: flex;
-    width: 1440px;
     height: 410px;
     align-items: center;
     flex-direction: column;
@@ -96,64 +100,63 @@
     background-size: cover;
 }
 
-
 .me {
     width: 632px;
     height: 200px;
     margin: 22px;
-    color: #000;
-    font-family: Libre Franklin, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .why {
     width: 586px;
     height: 165px;
-    margin: 0 0 0 261px;
-    color: #000;
-    font-family: Libre Franklin, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    margin: 0 0 0 250px;
 }
 
 .marketing {
     width: 586px;
     height: 165px;
-    color: #000;
-    font-family: Libre Franklin, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 h1 {
     font-family: Libre Franklin, sans-serif;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     color: #D9D9D9;
 }
 
 h2 {
-
     font-family: Libre Franklin, sans-serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     color: #D9D9D9;
 }
 
 p {
     margin-top: 22px;
-    color: #D9D9D9;
+    color: #330633;
+    font-size: 18px;
+    font-family: Libre Franklin, sans-serif;
+    transition: 0.5s;
 }
 
+p:hover {
+    color: #D9D9D9;
+    transition: 1s;
+}
+
+.img5:hover {
+    width: 400px;
+    height: 630px;
+    transition: 1s;
+}
+
+.img4:hover {
+    width: 400px;
+    height: 630px;
+    transition: 1s;
+    padding-left: 60px;
+}
+
+.img2:hover {
+    height: 800px;
+    transition: 1s;
+}
 
