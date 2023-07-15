@@ -74,6 +74,7 @@ body {
     display: flex;
     height: 350px;
     align-items: center;
+    justify-content: center;
 }
 
 .mid3 {
@@ -145,6 +146,7 @@ p:hover {
 .img5:hover {
     width: 400px;
     height: 630px;
+    padding-right: 100px;
     transition: 1s;
 }
 
@@ -152,7 +154,7 @@ p:hover {
     width: 400px;
     height: 630px;
     transition: 1s;
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 .img2:hover {
