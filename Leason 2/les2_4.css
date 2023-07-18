@@ -14,9 +14,6 @@ h1 {
     color: #000;
     font-family: 'Ultra', serif;
     font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: center;
     height: 100px;
     padding-top: 115px;
@@ -26,7 +23,6 @@ h1 {
 .post {
     width: 440px;
     height: 530px;
-    flex-shrink: 0;
     border-radius: 10px;
     border: 2px solid #A8A4A4;
     background: #EEFFFD;
@@ -37,27 +33,19 @@ p {
     margin: 56px 28px 0px 21px;
     width: 391px;
     height: 312px;
-    flex-shrink: 0;
     color: #000;
     font-family: 'Uchen', serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     text-align: left;
 }
 
 button {
     width: 220px;
     height: 70px;
-    flex-shrink: 0;
     border: 1px solid #000;
     background: #D9D9D9;
     color: #000;
     font-family: 'Uchen', serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     align-items: flex-end;
 }

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(83, 81, 81, 0.10);
+}
+
+a {
+    font-size: 4vh;
+    margin-right: 8vw;
+    text-decoration: none;
+    color: #7A7070;
+}
+
+.active {
+    color: #3D6FB4;
+}
+
+main {
+    display: flex;
+    padding: 0 25vw 0 20vw;
+}
+
+section {
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    width: 20vw;
+    font-size: 7vh;
+    margin-bottom: 0;
+}
+
+p {
+    width: 25vw;
+    font-size: 3vh;
+}
+
+button {
+    font-family: 'Jost', sans-serif;
+    font-size: 2vh;
+    width: 15vh;
+    height: 5vh;
+    border: 0.2vh solid black;
+    border-radius: 3vh;
+    margin-top: 8vh;
+}
+
+.but2 {
+    margin-left: 1vw;
+    background: rgba(61, 111, 180, 0.29);
+}
+
+img {
+    width: 64vh;
+    height: 64vh;
+}
+
