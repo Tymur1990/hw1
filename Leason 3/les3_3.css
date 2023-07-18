@@ -5,28 +5,18 @@ body {
 #red {
     height: 100vh;
     background: darkred;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 10vh;
 }
 
 #blue {
     height: 100vh;
     background: #1f59a2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 10vh;
 }
 
 #green {
-    height: 100vh;
     background: #647927;
+}
+.stile {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -13,17 +13,16 @@ p {
 }
 
 #pink {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     padding: 0 5vw;
     background: pink;
 }
 
 #dark {
+    background: black;
+    color: white;
+}
+
+.stile {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -31,6 +30,4 @@ p {
     justify-content: center;
     text-align: center;
     padding: 0 5vw;
-    background: black;
-    color: white;
 }
