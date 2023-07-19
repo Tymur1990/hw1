@@ -51,20 +51,22 @@ p {
 button {
     font-family: 'Jost', sans-serif;
     font-size: 2vh;
-    width: 15.2vh;
+    width: 15vh;
     height: 5vh;
     border: 0.2vh solid black;
     border-radius: 3vh;
     margin-top: 7vh;
+    padding: 0;
 }
 
-.buts{
+.buts {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 25vw;
 }
 
 .but2 {
+    margin-left: 2vh;
     background: rgba(61, 111, 180, 0.29);
 }
 
