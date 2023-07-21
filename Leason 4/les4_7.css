@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e67c7;
+}
+
+main {
+    height: 34vh;
+    width: 50vh;
+    background-color: #ffffff;
+    border-radius: 0.5vh;
+}
+
+input {
+    width: 90%;
+    height: 4vh;
+    border-radius: 0.3vh;
+    border: 0.2vh solid #cbcbcb;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3vh;
+    padding-left: 1vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div {
+    width: 93%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    width: 50%;
+    height: 4vh;
+    border-radius: 0.3vh;
+    border: 0.2vh solid #cbcbcb;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2vh;
+}
+
+hr {
+    margin-bottom: 2vh;
+}
+
+p {
+    font-size: 2.5vh;
+    margin: 2vh;
+    font-family: 'Roboto Slab', serif;
+}

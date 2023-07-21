@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    height: 35vh;
+    width: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    height: 3.8vh;
+    border: 0.2vh solid #cbcbcb;
+    border-radius: 0.3vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    background: rgb(245, 245, 245);
+    font-family: 'Victor Mono', monospace;
+    padding-left: 1vh;
+}
+
+#firstName {
+    width: 47%;
+}
+
+#lastName {
+    width: 47%;
+}
+
+button {
+    height: 3.8vh;
+    font-size: 1.5vh;
+    font-family: 'Victor Mono', monospace;
+    font-weight: 700;
+    background-color: #ffbc45;
+    border: 0.2vh solid #ce9639;
+    border-radius: 0.3vh;
+}
+
+p {
+    font-size: 1.2vh;
+    font-family: 'Victor Mono', monospace;
+    margin: 0;
+}
