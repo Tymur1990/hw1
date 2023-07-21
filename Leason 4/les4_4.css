@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width: 60vh;
+    height: 80vh;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2vh;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.6vh;
+    font-weight: 600;
+}
+
+img {
+    width: 35vh;
+    margin: 2vh 0;
+}
+
+ol {
+    padding: 2vh;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+ul {
+    margin: 0;
+    padding-left: 3vh;
+}
+
+hr {
+    margin: 0;
+}

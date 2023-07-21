@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Tektur', cursive;
+    height: 100vh;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 50vh;
+    height: 100vh;
+    flex-direction: column;
+}
+
+section {
+    width: 50vh;
+    height: 60vh;
+    background: white;
+    border: 0.2vh solid #cbcbcb;
+    flex-direction: column;
+}
+
+section img {
+    height: 10vh;
+    margin: 3vh 0;
+}
+
+section a {
+    color: rgb(20, 83, 128);
+}
+
+input {
+    width: 35vh;
+    height: 3.5vh;
+    border: 0.2vh solid #cbcbcb;
+    border-radius: 0.3vh;
+    padding: 0.5vh;
+    margin: 0;
+    font-family: 'Tektur', cursive;
+    font-size: 1.5vh;
+    background: rgb(245, 245, 245);
+}
+
+.face {
+    height: 3vh;
+}
+
+.face img {
+    width: 3vh;
+}
+
+.face a {
+    color: rgb(20, 45, 128);
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    margin: 1vh;
+    font-size: 2vh;
+}
+
+.little {
+    font-size: 1.8vh;
+    margin-top: 2vh;
+}
+
+p {
+    font-size: 1.6vh;
+    margin: 3vh 0;
+}
+
+button {
+    width: 36vh;
+    height: 5vh;
+    border-radius: 1vh;
+    border: none;
+    background-color: #68abe3;
+    padding: 0.5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+footer {
+    width: 50vh;
+    height: 8vh;
+    margin-top: 2vh;
+    border: 0.2vh solid #cbcbcb;
+    display: flex;
+}
+
+footer a {
+    color: #0b79c0;
+    font-weight: 600;
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.stl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    font-size: 3vh;
+}
+
+.header {
+    height: 20vh;
+    background-color: #8D8484;
+}
+
+.center {
+    display: flex;
+}
+
+.content {
+    width: 80vw;
+}
+
+.spam {
+    width: 20vw;
+}
+
+.Content1 {
+    height: 20vh;
+    background-color: #776969;
+}
+
+.Content2 {
+    height: 20vh;
+    background-color: #643030;
+}
+
+.Content3 {
+    height: 20vh;
+    background-color: #441818;
+}
+
+.spam1 {
+    height: 30vh;
+    background-color: #937575;
+}
+
+.spam2 {
+    height: 30vh;
+    background-color: #644C4C;
+}
+
+.footer {
+    height: 20vh;
+    background-color: #BDBDBD;
+}
+
+
+
