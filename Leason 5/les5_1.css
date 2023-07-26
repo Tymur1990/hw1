@@ -1,0 +1,21 @@
+.exercise1 li:nth-child(even) {
+    color: pink;
+}
+
+.exercise2 li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.exercise3 li:nth-child(2n+4)::after {
+    content: "!!!!!!!!!!!!!";
+    color: #8b0078;
+}
+
+.exercise4 li:last-child {
+    color: #7e1bec;
+}
+
+.exercise5 li:first-letter {
+    color: #c0155c;
+    font-size: 30px;
+}

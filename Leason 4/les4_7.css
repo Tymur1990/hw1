@@ -25,6 +25,7 @@ input {
 }
 
 form {
+    height: 23vh;
     display: flex;
     align-items: center;
     flex-direction: column;
