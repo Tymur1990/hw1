@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.secnionA {
+    height: 30vh;
+    width: 100vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-bottom: none;
+    background-color: #d06969;
+}
+.middle {
+    display: flex;
+    height: 70vh;
+    width: 70vw;
+    flex-wrap: wrap;
+}
+.secnionB {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-bottom: none;
+    background-color: #1e68ab;
+}
+.secnionC {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-bottom: none;
+    border-left: none;
+    background-color: #aba41e;
+}
+.secnionD {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-bottom: none;
+    border-left: none;
+    background-color: #e7d3a9;
+}
+.secnionE {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    background-color: #3295b9;
+}
+.secnionF {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-left: none;
+    background-color: #d850e3;
+}
+.secnionG {
+    height: 35vh;
+    width: 23.3vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-left: none;
+    background-color: #557ee5;
+}
+.secnionH {
+    height: 70vh;
+    width: 30vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    border-left: none;
+    background-color: #706a6a;
+}

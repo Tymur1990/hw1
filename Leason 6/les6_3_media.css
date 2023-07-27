@@ -1,0 +1,53 @@
+@media screen and (max-width: 414px) {
+
+    .secnionA {
+        height: 15vh;
+    }
+
+    .middle {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .secnionB {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionC {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionD {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionE {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionF {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionG {
+        height: 20vh;
+        width: 33.3vw;
+    }
+
+    .secnionH {
+        height: 45vh;
+        width: 100vw;
+        border: 1vh solid white;
+        border-top: none;
+    }
+
+    .text {
+        font-size: 4vh;
+    }
+
+}

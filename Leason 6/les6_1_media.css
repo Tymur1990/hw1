@@ -1,0 +1,28 @@
+@media screen and (max-width: 414px) {
+    .middle {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .secnionA {
+        height: 15vh;
+        margin-bottom: 0;
+    }
+
+    .secnionB {
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .secnionC {
+        height: 15vh;
+        width: 100vw;
+        border: 1vh solid white;
+        border-top: none;
+    }
+
+    .text {
+        font-size: 5vh;
+    }
+
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+}
+
+.secnionA {
+    height: 30vh;
+    border: 1vh solid white;
+    border-bottom: none;
+    box-sizing: border-box;
+    background-color: #8c3939;
+}
+
+.secnionB {
+    height: 70vh;
+    width: 70vw;
+    border: 1vh solid white;
+    box-sizing: border-box;
+    background-color: #76a84d;
+}
+
+.secnionC {
+    height: 70vh;
+    width: 30vw;
+    border: 1vh solid white;
+    border-left: none;
+    box-sizing: border-box;
+    background-color: #8e27a4;
+}
+
+.middle {
+    display: flex;
+}
