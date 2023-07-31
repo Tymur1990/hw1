@@ -12,9 +12,8 @@ main {
     align-items: center;
 }
 
-.parpgraf {
+.paragraf {
     color: #848895;
-    /*text-align: center;*/
     font-family: Helvetica, sans-serif;
     font-size: 2vh;
     font-weight: 400;
@@ -22,7 +21,7 @@ main {
     margin: 0;
 }
 
-.parpgraf:hover {
+.paragraf:hover {
     color: white;
     transition: 0.3s;
 }
@@ -48,6 +47,7 @@ button {
     padding: 0;
     margin: 0;
     transition: 0.5s;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 /*===================================== HEADER ===================================================*/
@@ -59,6 +59,8 @@ header {
     background: black;
     position: sticky;
     top: 0;
+    box-shadow: 1vh 1vh 1vh black;
+    z-index: 100;
 }
 
 .Breakpoint {
@@ -126,6 +128,7 @@ nav {
     letter-spacing: 0.1vh;
     text-transform: uppercase;
     margin: 0 0 5vh 0;
+    /*text-shadow: 1vh 1vh 1vh black;*/
 }
 
 .tools__href {
@@ -144,6 +147,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     margin: 0;
+    /*text-shadow: 0.3vh 0.3vh 1vh black;*/
 }
 
 h3 {
@@ -153,7 +157,7 @@ h3 {
     text-align: center;
     color: #ffffff;
     margin: 6vh 0;
-    /*width: 60%;*/
+    /*text-shadow: 1vh 1vh 1vh black;*/
 }
 
 .but1 {
@@ -171,7 +175,7 @@ h3 {
 .but2 {
     margin-left: 1vh;
     border: 0.1vh solid #FFF;
-    background: #000;
+    background: rgba(102, 146, 183, 0);
 }
 
 .but2:hover {
@@ -211,6 +215,7 @@ h2 {
     font-size: 4.5vh;
     font-weight: 400;
     margin: 0;
+    /*text-shadow: 1vh 1vh 1vh black;*/
 }
 
 .number {
@@ -284,12 +289,13 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     height: 40vh;
-    border: 0.2vh solid rgba(0, 0, 0, 0.28);
+    border: none;
     background: rgba(0, 0, 0, 0.28);
     backdrop-filter: blur(0.1vh);
     border-radius: 3vh;
     padding: 4vh;
     box-sizing: border-box;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .environment {
@@ -321,16 +327,85 @@ h2 {
     border-radius: 50%;
 }
 
+/*===================================== SECTION 4 ===================================================*/
 
+.section4 {
+    padding: 10vh 17vw 10vh 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    box-sizing: border-box;
+}
 
+.buildForGrowth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
 
+.buildForGrowth__items {
+    list-style: none;
+    display: flex;
+    gap: 1.5vh;
+    margin: 0;
+    height: 6vh;
+}
 
+.buildForGrowth__item {
+    justify-content: center;
+    height: 100%;
+    padding: 0 2.5vh;
+    border-radius: 1.5vh;
+    background: rgb(26, 26, 26);
+    border: 0.3vh solid #1a1a1a;
+    box-shadow: 1vh 1vh 1vh black;
+    box-sizing: border-box;
+}
 
+.buildForGrowth__item:hover {
+    border: 0.3vh solid #6b17b0;
+}
 
+.anybodies {
+    display: flex;
+}
 
+.anybodies img {
+    width: 50%;
+}
 
+.anybodies__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(26, 26, 26);
+    width: 50%;
+    gap: 2vh;
+    padding: 5vh;
+}
 
+.anybodies__item h3 {
+    text-align: start;
+    margin: 0;
+}
 
+.anybodies__item a h3 {
+    color: #A962FF;
+}
 
+.icons {
+    justify-content: space-around;
+    height: 13vh;
+}
 
+.icons__small {
+    height: 30%;
+}
+
+.icons__large {
+    height: 60%;
+}
 
