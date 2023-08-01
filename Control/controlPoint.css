@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     background: url("img/bec.png");
     background-size: cover;
@@ -131,13 +135,14 @@ nav {
     /*text-shadow: 1vh 1vh 1vh black;*/
 }
 
-.tools__href {
+.tools__img {
     justify-content: space-evenly;
     width: 66vw;
 }
 
-.tools__href a img {
-    height: 3vh;
+.tools__img img {
+    height: auto;
+    max-width: 100%;
 }
 
 h1 {
@@ -330,19 +335,19 @@ h2 {
 /*===================================== SECTION 4 ===================================================*/
 
 .section4 {
-    padding: 10vh 17vw 10vh 17vw;
+    padding: 12vh 17vw 8vh 17vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100vh;
     box-sizing: border-box;
+    gap: 2vh;
 }
 
 .buildForGrowth {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2vh;
 }
 
 .buildForGrowth__items {
@@ -356,7 +361,7 @@ h2 {
 .buildForGrowth__item {
     justify-content: center;
     height: 100%;
-    padding: 0 2.5vh;
+    padding: 0 1.5vh;
     border-radius: 1.5vh;
     background: rgb(26, 26, 26);
     border: 0.3vh solid #1a1a1a;
@@ -372,8 +377,11 @@ h2 {
     display: flex;
 }
 
-.anybodies img {
-    width: 50%;
+.devilMan {
+    width: 33vw;
+    height: 23vw;
+    border-radius: 3vh 0 0 3vh;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .anybodies__item {
@@ -381,10 +389,14 @@ h2 {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    width: 33vw;
+    height: 23vw;
+    gap: 4vh;
+    padding-left: 4.5vh;
     background: rgb(26, 26, 26);
-    width: 50%;
-    gap: 2vh;
-    padding: 5vh;
+    border-radius: 0 3vh 3vh 0;
+    box-shadow: 1vh 1vh 1vh black;
+    box-sizing: border-box;
 }
 
 .anybodies__item h3 {
@@ -392,20 +404,149 @@ h2 {
     margin: 0;
 }
 
-.anybodies__item a h3 {
+.NFTs {
     color: #A962FF;
+    transition: 0.5s;
+    height: 3vh;
+}
+
+.NFTs:hover {
+    color: #19FB9B;
+    text-decoration: underline;
+    transition: 0.5s;
+    font-size: 3vh;
+}
+
+.anybodies__item img {
+    width: 15vw;
 }
 
 .icons {
     justify-content: space-around;
-    height: 13vh;
+    height: 10vh;
+    backdrop-filter: blur(0.1vh);
+    background: rgba(38, 31, 38, 0.30);
+    box-shadow: 1vh 1vh 1vh black;
+    border-radius: 3vh;
 }
 
-.icons__small {
-    height: 30%;
+.icons img {
+    height: auto;
+    max-width: 100%;
 }
 
-.icons__large {
-    height: 60%;
+/*===================================== SECTION 4 ===================================================*/
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
+.unfull {
+    padding: 0 17vw;
+}
+
+.upperCommunity {
+    margin: 10vh 0 2vh 0;
+}
+
+.community {
+    display: flex;
+    gap: 1.5vh;
+    width: 200vw;
+    z-index: 50;
+}
+
+.community__blocs {
+    width: 20vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocType1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 48%;
+    background: #19161c;
+    border-radius: 2vh;
+}
+
+.blocType1 p {
+    font-size: 1.6vh;
+    margin: 1vh 0;
+}
+
+.blocType2 {
+    height: 48%;
+    border-radius: 2vh;
+}
+
+.blocType3 {
+    width: 40vw;
+    height: 28vw;
+    border-radius: 2vh;
+}
+
+.blocType4 {
+    width: 20vw;
+    height: 28vw;
+    border-radius: 2vh;
+}
+
+.img15 {
+    background: url("img/IMAGE15.png");
+    background-size: cover;
+}
+
+.img16 {
+    background: url("img/IMAGE16.png");
+    background-size: cover;
+}
+
+.img17 {
+    background: url("img/IMAGE17.png");
+    background-size: cover;
+}
+
+.img18 {
+    background: url("img/IMAGE18.png");
+    background-size: cover;
+}
+
+.img19 {
+    background: url("img/IMAGE19.png");
+    background-size: cover;
+}
+
+.img20 {
+    background: url("img/IMAGE20.png");
+    background-size: cover;
+}
+
+.img21 {
+    background: url("img/IMAGE21.png");
+    background-size: cover;
+}
+
+.img22 {
+    background: url("img/IMAGE22.png");
+    background-size: cover;
+}
+
+.underCommunity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+    gap: 2vh;
+}
+
+/*===================================== FOOTER ===================================================*/
