@@ -456,6 +456,7 @@ h2 {
     display: flex;
     gap: 1.5vh;
     width: 200vw;
+    height: 30vw;
     z-index: 50;
 }
 
@@ -475,6 +476,7 @@ h2 {
     height: 48%;
     background: #19161c;
     border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .blocType1 p {
@@ -485,18 +487,21 @@ h2 {
 .blocType2 {
     height: 48%;
     border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .blocType3 {
     width: 40vw;
     height: 28vw;
     border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .blocType4 {
     width: 20vw;
     height: 28vw;
     border-radius: 2vh;
+    box-shadow: 1vh 1vh 1vh black;
 }
 
 .img15 {
@@ -549,4 +554,104 @@ h2 {
     gap: 2vh;
 }
 
+.section6 {
+    height: 10vh;
+}
+
 /*===================================== FOOTER ===================================================*/
+
+footer {
+    height: 50vh;
+    padding: 10vh 17vh;
+    box-sizing: border-box;
+    background-color: #000508;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu h2 {
+    font-size: 2vh;
+}
+
+.menu__Foundation {
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+    box-sizing: border-box;
+}
+
+.logo2 {
+    width: 2.5vw;
+}
+
+.frame {
+    display: flex;
+    gap: 1.4vh;
+}
+
+.frame div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vh;
+    background-color: #848895;
+    padding: 0.2vh 0;
+}
+
+.frame div:hover {
+    background-color: #ffffff;
+}
+
+.frame img {
+    width: 1.7vh;
+}
+
+.empty {
+    width: 20vw;
+}
+
+.menu__solana {
+    width: 10vw;
+    padding-left: 3vh;
+}
+
+.menu__getConnected {
+    width: 15vw;
+    padding-left: 3vh;
+}
+
+.menu__solana h2, .menu__getConnected h2 {
+    margin-bottom: 3vh;
+}
+
+.solana__p, .getConnected__p {
+    height: 25vh;
+    gap: 3.3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__leng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    padding: 0 2vh;
+    gap: 1vh;
+}
+
+.menu__leng img {
+    width: 3vh;
+}
+
+select {
+    background: #000508;
+    color: white;
+    border: none;
+    font-size: 2vh;
+    font-family: Helvetica, sans-serif;
+}
