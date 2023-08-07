@@ -442,6 +442,7 @@ h2 {
     flex-direction: column;
     height: 100vh;
     box-sizing: border-box;
+    /*position: relative;*/
 }
 
 .unfull {
@@ -457,6 +458,7 @@ h2 {
     gap: 1.5vh;
     width: 200vw;
     height: 30vw;
+    /*position: absolute;*/
     z-index: 50;
 }
 
